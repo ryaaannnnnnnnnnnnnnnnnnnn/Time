@@ -2,7 +2,7 @@
 const d = new Date();
 // Store the value of getHours in variable
 let hour = d.getHours();
-// let hour =
+//let hour =
 
 if(hour <= 12){
 if (hour < 12) {
