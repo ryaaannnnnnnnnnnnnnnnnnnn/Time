@@ -2,7 +2,7 @@
 const d = new Date();
 // Store the value of getHours in variable
 let hour = d.getHours();
-hour = 20;
+hour = 6;
 
 if (hour < 12) {
 // Morning
