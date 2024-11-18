@@ -14,20 +14,29 @@
 </head>
 <body>
     
-    <div class="morning">
-        <h1 id="greeting">Good Morning</h1>
-        <img id="images" src="img/Morning.jpg" alt="">
-        <img id="sun" src="img/Sun.jpg" alt="">
+    <div class="container mt-5">
+        <!-- Buttons to switch between times of day -->
+        <div class="text-center">
+            <button class="btn btn-primary" onclick="showMorning()">Morning</button>
+            <button class="btn btn-warning" onclick="showAfternoon()">Afternoon</button>
+            <button class="btn btn-dark" onclick="showNight()">Night</button>
+        </div>
 
-    </div>
-    
-    <div class="afternoon">
-        <h1 id="greeting">Good Afternoon</h1>
-        <img id="images" src="img/Afternoon.jpg" alt="">
-        <img id="sun" src="img/Good Afternoon.jpg" alt="">
      
-        
+        <!-- Morning Section -->
+        <div class="morning">
+            <h1 id="greeting">Good Morning</h1>
+            <img id="images" src="img/Morning.jpg" alt="Morning">
+            <img id="sun" src="img/Sun.jpg" alt="Sun">
+        </div>
 
+        
+        <!-- Afternoon Section -->
+        <div class="afternoon">
+            <h1 id="greeting">Good Afternoon</h1>
+            <img id="images" src="img/Afternoon.jpg" alt="Afternoon">
+            <img id="sun" src="img/Good Afternoon.jpg" alt="Afternoon Sun">
+        </div>
         
         <!-- Night Section -->
         <div class="night">
